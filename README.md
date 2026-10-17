@@ -527,6 +527,7 @@ GROUP BY ROLLUP (station_id, status);
 •	Demonstration instructions explaining how to run the project and reproduce the database state
 
 intsall the zip folder as given and extract them,then try to create a database named railport_db,which will be better as all the codes uploaded uses that,then try to run schema.sql,seed.sql,bulk_data.sql in the same order as query in that database.
+then in frontend folder,there is a .env file where u need to save as your actual db password and save it(it needs to be as .env -file name)
 Then from frontend in ypur cmd after extracting,open cmd in backend folder and  try command 'npm install'(if windows) ,please check for other dependencies based on your system,then try to run that by command 'npm run dev' .Now you should se something like backend running on ~-  https:/local:5000 ,(maybe different localhost).
 Do the same process by opening other command window,keeping the last one active and running and do the same process for frontend.Here you will get a local link to open this system.
 Then u can access the database and do whatever operations from the local website itself
